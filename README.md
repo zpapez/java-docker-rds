@@ -13,6 +13,7 @@ Connecting to Amazon DocumentDB with RDS CA from a dockerized Java.
   docker build --tag my-prj/service:0.0.0-local --build-arg trustStorePassword=somePassword .
   ```
   This bakes a trust store with RDS CA certificate inside the image using [import_rds_certs.sh](./import_rds_certs.sh)
+
 4. Run the image
   ```
   docker run abcdef12345
